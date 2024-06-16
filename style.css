@@ -1,0 +1,375 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.booking-form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form-container form label {
+    margin-top: 10px;
+}
+
+.booking-form-container form input,
+.booking-form-container form select {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.booking-form-container form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.booking-form-container form button:hover {
+    background-color: #555;
+}
+
+#admin-page {
+    display: none; /* Initially hidden */
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form label {
+    margin-top: 10px;
+}
+
+.form-container form input,
+.form-container form select {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.form-container form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container form button:hover {
+    background-color: #555;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-container, .admin-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2, .admin-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form, .admin-container table {
+    width: 100%;
+}
+
+.form-container form label, .admin-container table th, .admin-container table td {
+    margin-top: 10px;
+}
+
+.form-container form input, .form-container form select {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.form-container form button, .admin-container table button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container form button:hover, .admin-container table button:hover {
+    background-color: #555;
+}
+
+.admin-container table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.admin-container table, .admin-container th, .admin-container td {
+    border: 1px solid #ddd;
+}
+
+.admin-container th, .admin-container td {
+    padding: 8px;
+    text-align: left;
+}
+
+.admin-container th {
+    background-color: #f2f2f2;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-container, .admin-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2, .admin-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form, .admin-container table {
+    width: 100%;
+}
+
+.form-container form label, .admin-container table th, .admin-container table td {
+    margin-top: 10px;
+}
+
+.form-container form input, .form-container form select {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.form-container form button, .admin-container table button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container form button:hover, .admin-container table button:hover {
+    background-color: #555;
+}
+
+.admin-container table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.admin-container table, .admin-container th, .admin-container td {
+    border: 1px solid #ddd;
+}
+
+.admin-container th, .admin-container td {
+    padding: 8px;
+    text-align: left;
+}
+
+.admin-container th {
+    background-color: #f2f2f2;
+}
+
+.hidden {
+    display: none;
+}
+
+.admin-btn{
+    color: white;
+    text-decoration: none;
+}
+
+.bookk{
+    background-color: black;
+    margin: 2px;
+    padding: 6px;
+    border-radius: 5px;
+
+}
+
+.bookk a{
+    color: white;
+    text-decoration: none;
+
+}

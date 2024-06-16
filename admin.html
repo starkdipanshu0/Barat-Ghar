@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Manage Bookings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Barat Ghar</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="self-booking.html">Self Booking</a></li>
+            <li><a href="guest-booking.html">Guest Booking</a></li>
+        </ul>
+    </nav>
+
+    <!-- Admin Management Section -->
+    <div class="admin-container">
+        <h2>Manage Bookings</h2>
+        <table id="bookings-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Relation</th>
+                    <th>Event Type</th>
+                    <th>Event Date</th>
+                    <th>Payment Method</th>
+                    <th>Payment Details</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Booking entries will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

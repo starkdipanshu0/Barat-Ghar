@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Barat Ghar</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="self-booking.html">Self Booking</a></li>
+            <li><a href="guest-booking.html">Guest Booking</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Guest Booking Form -->
+    <div class="form-container">
+        <h2>Guest Booking</h2>
+        <form id="guest-booking-form">
+            <label for="guest-name">Name:</label>
+            <input type="text" id="guest-name" name="guest-name" required>
+
+            <label for="event-date">Relation</label>
+            <select id="relation" name="relation" required>
+                <option value="father">Father</option>
+                <option value="mother">Mother</option>
+                <option value="brother">Brother</option>
+                <option value="sister">Sister</option>
+                <option value="paypal">Brother-in-law</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="event-type">Event Type:</label>
+            <select id="payment-method" name="payment-method" required>
+                <option value="marriage">Marriage</option>
+                <option value="engagement">Engagement</option>
+                <option value="birthday">Birthday</option>
+                <option value="pooja">Pooja</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="event-date">Event Date:</label>
+            <input type="date" id="event-date" name="event-date" required>
+
+            <label for="guest-image">Upload Image:</label>
+            <input type="file" id="guest-image" name="guest-image" accept="image/*" required>
+
+            <h3>Payment</h3>
+            <label for="payment-method">Payment Method:</label>
+            <select id="payment-method" name="payment-method" required>
+                <option value="credit-card">Credit Card</option>
+                <option value="debit-card">Debit Card</option>
+                <option value="paypal">PayPal</option>
+            </select>
+
+            <label for="payment-details">Payment Details:</label>
+            <input type="text" id="payment-details" name="payment-details" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
